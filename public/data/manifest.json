@@ -1,0 +1,76 @@
+{
+  "schemaVersion": "1.0.0",
+  "app": {
+    "name": "Jezero Expedition Intelligence",
+    "shortName": "JEI",
+    "version": "0.1.0"
+  },
+  "region": {
+    "name": "Jezero Crater",
+    "bounds": [
+      77.22,
+      18.405,
+      77.48,
+      18.515
+    ],
+    "center": [
+      77.35,
+      18.46
+    ],
+    "crs": "Mars 2000 planetocentric, equirectangular, positive east",
+    "note": "Local-scale concept map. Coordinates are approximate."
+  },
+  "basemap": {
+    "kind": "usgs_hirise_browse",
+    "image": "/data/basemap_jezero_1024.jpg",
+    "bounds": [
+      77.22,
+      18.35,
+      77.58,
+      18.55
+    ],
+    "alignment": "approximate",
+    "resolution_m": 20,
+    "source": "USGS Astrogeology, Mars 2020 TRN HiRISE orthomosaic browse (1024 px)",
+    "sourceUrl": "https://astrogeology.usgs.gov/search/map/mars_2020_terrain_relative_navigation_hirise_orthorectified_image_mosaic",
+    "fullResolution": {
+      "url": "https://planetarymaps.usgs.gov/mosaic/mars2020_trn/HiRISE/JEZ_hirise_soc_006_orthoMosaic_25cm_Eqc_latTs0_lon0_first.tif",
+      "pixel_m": 0.25,
+      "size": "6.9 GB"
+    },
+    "warning": "Browse image alignment is approximate. Use the full GeoTIFF and crop to bounds for scientific measurement."
+  },
+  "layers": [
+    {
+      "id": "basemap",
+      "name": "HiRISE browse",
+      "kind": "image",
+      "default": true
+    },
+    {
+      "id": "traverse",
+      "name": "Rover traverse",
+      "kind": "vector",
+      "default": true
+    },
+    {
+      "id": "route",
+      "name": "Science traverse",
+      "kind": "vector",
+      "default": false
+    },
+    {
+      "id": "targets",
+      "name": "Science targets",
+      "kind": "vector",
+      "default": true
+    }
+  ],
+  "targets": "/data/targets.geojson",
+  "traverse": "/data/traverse.geojson",
+  "route": "/data/route.geojson",
+  "routeProfile": "/data/route_profile.json",
+  "environment": "/data/environment.json",
+  "evidence": "/data/evidence.json",
+  "sources": "/data/sources.json"
+}

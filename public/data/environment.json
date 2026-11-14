@@ -1,0 +1,63 @@
+{
+  "items": [
+    {
+      "id": "ENV-RAD",
+      "domain": "Radiation",
+      "kind": "analogue",
+      "headline": "No local RAD measurement",
+      "detail": "There is no Radiation Assessment Detector at Jezero. MSL RAD measured the surface environment at Gale Crater. Any Jezero value is an analogue or a model estimate.",
+      "source_ids": [
+        "E1"
+      ],
+      "confidence": "Low",
+      "display": "Source: Gale RAD analogue / model. Not a local measurement."
+    },
+    {
+      "id": "ENV-ATM",
+      "domain": "Atmosphere",
+      "kind": "measured",
+      "headline": "MEDA environmental time series",
+      "detail": "MEDA measures pressure, air and surface temperature, wind, relative humidity, and dust/radiation context at the rover. Use the time series, not a single number.",
+      "source_ids": [
+        "E2"
+      ],
+      "confidence": "Moderate–High",
+      "display": "Pressure: hundreds of pascals, sol-dependent; temperature well below 0 °C for much of the sol; wind and dust episodic."
+    },
+    {
+      "id": "ENV-TER",
+      "domain": "Terrain",
+      "kind": "measured",
+      "headline": "HiRISE DTM and traverse grades",
+      "detail": "HiRISE DTMs are available at about 1 m/pixel for the landing area and delta. The rover's daily-position track has apparent grades up to about 32%.",
+      "source_ids": [
+        "U1",
+        "D1"
+      ],
+      "confidence": "Moderate",
+      "display": "DTM 1 m/px; local apparent grades up to ~32% along the rover track. Not a human trafficability model."
+    },
+    {
+      "id": "ENV-ICE",
+      "domain": "Water ice",
+      "kind": "unknown",
+      "headline": "No proven shallow ice at Jezero",
+      "detail": "SWIM-style subsurface ice mapping focuses on mid-to-high latitudes. There is no verified shallow ice deposit at the Jezero rover site.",
+      "source_ids": [
+        "E4"
+      ],
+      "confidence": "Low",
+      "display": "Ancient water is documented; present-day shallow ice is not."
+    },
+    {
+      "id": "ENV-MOB",
+      "domain": "Mobility",
+      "kind": "assumption",
+      "headline": "Design assumptions only",
+      "detail": "Walking speed, EVA duration, carry capacity, suit mobility, and communications are design assumptions, not measured capabilities.",
+      "source_ids": [],
+      "confidence": "Assumption",
+      "display": "1.5 km/h walking + 10 min per stop; 4 h EVA window. Adjustable; not NASA-validated."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+:root {
+  --bg: #0b0f14;
+  --surface: #111821;
+  --surface-2: #16212c;
+  --border: #24303d;
+  --text: #e8eef5;
+  --text-muted: #93a4b8;
+  --text-dim: #6b7c90;
+  --accent: #f2a33a;
+  --accent-soft: #3a2a16;
+  --cyan: #5cc8d7;
+  --cyan-soft: #123039;
+  --violet: #a78bfa;
+  --red: #e05d5d;
+  --red-soft: #3a1a1a;
+  --green: #6fcf97;
+  --green-soft: #143024;
+}

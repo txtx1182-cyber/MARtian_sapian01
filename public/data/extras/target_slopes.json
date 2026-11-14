@@ -1,0 +1,56 @@
+[
+  {
+    "target_id": "T1",
+    "median_slope_deg": 2.4,
+    "radius_m": 100,
+    "covered": true
+  },
+  {
+    "target_id": "T2",
+    "median_slope_deg": 4.1,
+    "radius_m": 100,
+    "covered": true
+  },
+  {
+    "target_id": "T3",
+    "median_slope_deg": 3.2,
+    "radius_m": 100,
+    "covered": true
+  },
+  {
+    "target_id": "T4",
+    "median_slope_deg": 6.8,
+    "radius_m": 100,
+    "covered": true
+  },
+  {
+    "target_id": "T5",
+    "median_slope_deg": 5.2,
+    "radius_m": 100,
+    "covered": true
+  },
+  {
+    "target_id": "T6",
+    "median_slope_deg": null,
+    "radius_m": 100,
+    "covered": false
+  },
+  {
+    "target_id": "T7",
+    "median_slope_deg": null,
+    "radius_m": 100,
+    "covered": false
+  },
+  {
+    "target_id": "T8",
+    "median_slope_deg": null,
+    "radius_m": 100,
+    "covered": false
+  },
+  {
+    "target_id": "T9",
+    "median_slope_deg": null,
+    "radius_m": 100,
+    "covered": false
+  }
+]

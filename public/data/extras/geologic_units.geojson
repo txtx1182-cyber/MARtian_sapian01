@@ -1,0 +1,140 @@
+{
+  "type": "FeatureCollection",
+  "name": "USGS_SIM_3464_Jezero_Geologic_Units_Subset",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "unit_code": "Nf",
+        "unit_name": "Crater Floor Formation (Séítah & Máaz)",
+        "description": "Igneous cumulate and lava flow units occupying the low-relief floor of Jezero Crater.",
+        "color": "#4A5568"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [77.38, 18.41],
+            [77.47, 18.42],
+            [77.48, 18.48],
+            [77.41, 18.49],
+            [77.37, 18.46],
+            [77.38, 18.41]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "unit_code": "Nld",
+        "unit_name": "Western Delta Lower Unit (Shenandoah)",
+        "description": "Fine-to-medium-grained sandstone and mudstone forming the bottomset and lower foreset beds of the ancient delta.",
+        "color": "#D69E2E"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [77.34, 18.45],
+            [77.38, 18.46],
+            [77.39, 18.49],
+            [77.35, 18.50],
+            [77.33, 18.48],
+            [77.34, 18.45]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "unit_code": "Nud",
+        "unit_name": "Western Delta Upper Unit (Cape Nukshak)",
+        "description": "Coarser boulder conglomerates and topset strata recording energetic terminal fluvial floods.",
+        "color": "#ED8936"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [77.32, 18.47],
+            [77.35, 18.49],
+            [77.34, 18.52],
+            [77.31, 18.51],
+            [77.32, 18.47]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "unit_code": "Nvm",
+        "unit_name": "Neretva Vallis Channel & Valley Floor (Bright Angel)",
+        "description": "Incised fluvial channel fill and light-toned mudstones recording low-temperature aqueous alteration.",
+        "color": "#319795"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [77.28, 18.49],
+            [77.32, 18.49],
+            [77.32, 18.51],
+            [77.29, 18.51],
+            [77.28, 18.49]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "unit_code": "Nmu",
+        "unit_name": "Margin Unit (Mandu Wall)",
+        "description": "Carbonate-bearing unit skirting the western inner rim; possible ancient lacustrine shoreline precipitate.",
+        "color": "#9F7AEA"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [77.24, 18.44],
+            [77.28, 18.44],
+            [77.28, 18.48],
+            [77.25, 18.48],
+            [77.24, 18.44]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "unit_code": "Ncf",
+        "unit_name": "Crater Rim & Basement Units",
+        "description": "Pre-impact Noachian basement and impact breccia defining the western crater margin.",
+        "color": "#718096"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [77.22, 18.40],
+            [77.25, 18.40],
+            [77.24, 18.47],
+            [77.22, 18.47],
+            [77.22, 18.40]
+          ]
+        ]
+      }
+    }
+  ]
+}

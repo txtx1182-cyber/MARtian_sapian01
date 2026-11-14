@@ -1,0 +1,240 @@
+[
+  {
+    "id": "EV-T1-01",
+    "target_id": "T1",
+    "claim": "The rover landed at Octavia E. Butler Landing on 2021-02-18 and the site is the operational origin for the traverse.",
+    "class": "observation",
+    "instrument": "Mars 2020 mission / PDS localization",
+    "source_ids": [
+      "P1",
+      "D1"
+    ],
+    "confidence": "High",
+    "supports": [
+      "context"
+    ],
+    "counter_evidence": "None material.",
+    "what_would_change": "Nothing; this is a mission fact."
+  },
+  {
+    "id": "EV-T2-01",
+    "target_id": "T2",
+    "claim": "Séítah is a coarsely crystalline olivine-rich rock interpreted as a cumulate at the base of a magma body.",
+    "class": "interpretation",
+    "instrument": "Mastcam-Z, SuperCam, PIXL",
+    "source_ids": [
+      "P2",
+      "P11",
+      "P12"
+    ],
+    "confidence": "Moderate",
+    "supports": [
+      "science"
+    ],
+    "counter_evidence": "The cumulate interpretation is a published interpretation, not a direct observation of the magma chamber.",
+    "what_would_change": "Additional structural or geochemical evidence would strengthen or revise it."
+  },
+  {
+    "id": "EV-T2-02",
+    "target_id": "T2",
+    "claim": "Mg–Fe carbonates occur along grain boundaries, indicating reaction with CO₂-rich water under water-poor conditions.",
+    "class": "observation",
+    "instrument": "SuperCam / PIXL",
+    "source_ids": [
+      "P2",
+      "P12"
+    ],
+    "confidence": "Moderate",
+    "supports": [
+      "habitability",
+      "science"
+    ],
+    "counter_evidence": "The water activity and duration are not established; the environment was water-poor.",
+    "what_would_change": "Quantitative constraints on water activity and duration."
+  },
+  {
+    "id": "EV-T3-01",
+    "target_id": "T3",
+    "claim": "Máaz is interpreted as lava flows or the chemical complement to Séítah in a layered igneous body.",
+    "class": "interpretation",
+    "instrument": "Mastcam-Z, SuperCam, PIXL",
+    "source_ids": [
+      "P2"
+    ],
+    "confidence": "Moderate",
+    "supports": [
+      "science"
+    ],
+    "counter_evidence": "The exact emplacement mechanism is not settled.",
+    "what_would_change": "Additional contact relationships and geochemistry."
+  },
+  {
+    "id": "EV-T4-01",
+    "target_id": "T4",
+    "claim": "The Shenandoah Formation records five facies and three facies associations, interpreted as a transition from distal alluvial setting to saline lake to prograding delta.",
+    "class": "interpretation",
+    "instrument": "Mastcam-Z, SuperCam, PIXL",
+    "source_ids": [
+      "P7",
+      "P8"
+    ],
+    "confidence": "Moderate",
+    "supports": [
+      "habitability",
+      "science"
+    ],
+    "counter_evidence": "Facies interpretation is sedimentological; it does not prove life.",
+    "what_would_change": "More lateral correlation and age constraints."
+  },
+  {
+    "id": "EV-T4-02",
+    "target_id": "T4",
+    "claim": "Fine-grained sedimentary rocks at the fan front are a strong context for organic-matter preservation.",
+    "class": "interpretation",
+    "instrument": "Mastcam-Z, SHERLOC, PIXL",
+    "source_ids": [
+      "P8",
+      "P9"
+    ],
+    "confidence": "Moderate",
+    "supports": [
+      "biosignature"
+    ],
+    "counter_evidence": "Preservation potential is not evidence that organic matter is biological.",
+    "what_would_change": "Returned-sample analyses of the fan-front cores."
+  },
+  {
+    "id": "EV-T5-01",
+    "target_id": "T5",
+    "claim": "The upper fan includes inclined strata and boulder conglomerates interpreted as delta and high-energy flood deposits.",
+    "class": "interpretation",
+    "instrument": "Mastcam-Z",
+    "source_ids": [
+      "P3",
+      "P7"
+    ],
+    "confidence": "Moderate",
+    "supports": [
+      "science"
+    ],
+    "counter_evidence": "Boulder-size statistics and discharge are not established in the abstract.",
+    "what_would_change": "Full-text check of Mangold et al. (2021) and targeted image analysis."
+  },
+  {
+    "id": "EV-T6-01",
+    "target_id": "T6",
+    "claim": "Neretva Vallis is a fluvial valley that fed the Jezero delta; the valley floor exposes outcrops relevant to the river history.",
+    "class": "interpretation",
+    "instrument": "Mastcam-Z, SuperCam, RIMFAX",
+    "source_ids": [
+      "P3",
+      "P4"
+    ],
+    "confidence": "Moderate",
+    "supports": [
+      "habitability",
+      "science"
+    ],
+    "counter_evidence": "The valley's flow history is not fully resolved.",
+    "what_would_change": "Additional stratigraphic and geochronologic data."
+  },
+  {
+    "id": "EV-T7-01",
+    "target_id": "T7",
+    "claim": "Organic-carbon-bearing mudstones contain sub-millimetre Fe-phosphate nodules and millimetre-scale reaction fronts enriched in ferrous iron phosphate and sulfide minerals, likely vivianite and greigite.",
+    "class": "observation",
+    "instrument": "PIXL, SHERLOC, Mastcam-Z",
+    "source_ids": [
+      "P4"
+    ],
+    "confidence": "Moderate",
+    "supports": [
+      "biosignature",
+      "habitability"
+    ],
+    "counter_evidence": "The minerals are likely, not confirmed; the organic carbon source is unresolved.",
+    "what_would_change": "High-sensitivity laboratory analysis of the returned core."
+  },
+  {
+    "id": "EV-T7-02",
+    "target_id": "T7",
+    "claim": "The organic carbon appears to have participated in post-depositional redox reactions at low temperature.",
+    "class": "interpretation",
+    "instrument": "PIXL, SHERLOC",
+    "source_ids": [
+      "P4"
+    ],
+    "confidence": "Moderate",
+    "supports": [
+      "biosignature"
+    ],
+    "counter_evidence": "Abiotic redox pathways can produce similar textures and mineral associations.",
+    "what_would_change": "Isotopic, chiral, and textural analysis of returned samples."
+  },
+  {
+    "id": "EV-T7-03",
+    "target_id": "T7",
+    "claim": "NASA described the Cheyava Falls finding as a possible biosignature at the first level of the Confidence of Life Detection scale.",
+    "class": "public interpretation",
+    "instrument": "NASA",
+    "source_ids": [
+      "M1"
+    ],
+    "confidence": "High",
+    "supports": [
+      "context"
+    ],
+    "counter_evidence": "This is a confidence classification, not a confirmation of life.",
+    "what_would_change": "Sample return and independent laboratory analysis."
+  },
+  {
+    "id": "EV-T7-04",
+    "target_id": "T7",
+    "claim": "Luminescence signals initially reported as consistent with organics can be explained by inorganic Ce³⁺ in phosphate and silicate defects.",
+    "class": "counter-evidence",
+    "instrument": "SHERLOC",
+    "source_ids": [
+      "P9"
+    ],
+    "confidence": "Moderate",
+    "supports": [
+      "biosignature"
+    ],
+    "counter_evidence": "This is a competing explanation that must be shown next to the organic detection.",
+    "what_would_change": "Further spatially resolved organic/mineral mapping."
+  },
+  {
+    "id": "EV-T8-01",
+    "target_id": "T8",
+    "claim": "The Margin Unit contains orbital carbonate detections and is hypothesized to preserve lacustrine carbonates.",
+    "class": "hypothesis",
+    "instrument": "CRISM",
+    "source_ids": [
+      "P5",
+      "P17"
+    ],
+    "confidence": "Low–Moderate",
+    "supports": [
+      "habitability",
+      "science"
+    ],
+    "counter_evidence": "The lacustrine origin is not confirmed; the unit has limited ground truth.",
+    "what_would_change": "Ground-truth mineralogy and stratigraphy."
+  },
+  {
+    "id": "EV-T9-01",
+    "target_id": "T9",
+    "claim": "The western rim exposes diverse materials and provides regional structural context.",
+    "class": "interpretation",
+    "instrument": "HiRISE, CTX, CRISM",
+    "source_ids": [
+      "P17"
+    ],
+    "confidence": "Low",
+    "supports": [
+      "science"
+    ],
+    "counter_evidence": "Outcrop-scale characteristics are poorly known.",
+    "what_would_change": "High-resolution imaging and, ideally, surface investigation."
+  }
+]

@@ -1,0 +1,305 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.4509,
+          18.4446,
+          -2569.9
+        ]
+      },
+      "properties": {
+        "id": "T1",
+        "code": "T1",
+        "name": "Octavia E. Butler Landing",
+        "elevation_m": -2569.9,
+        "unit": "Crater floor / landing site",
+        "context": "Landing site and access point to the crater floor and western delta.",
+        "summary": "The rover's landing site; the operational origin for the traverse. Useful as a control point, not as a high-priority science target.",
+        "habitability": "Low–Moderate",
+        "biosignature": "None documented",
+        "science": "Moderate",
+        "access": "Easy",
+        "confidence": "High",
+        "source_ids": [
+          "P1",
+          "P2",
+          "D1"
+        ],
+        "distance_from_landing_km": 0.0,
+        "nearest_rover_sol": 0,
+        "coordinate_note": "Approximate; nearest rover daily position used as proxy. Refine with HiRISE and rover operations target database.",
+        "confidence_reason": "PDS localization and mission records; high confidence in position and context."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.4407,
+          18.4325,
+          -2571.8
+        ]
+      },
+      "properties": {
+        "id": "T2",
+        "code": "T2",
+        "name": "Séítah",
+        "elevation_m": -2571.8,
+        "unit": "Séítah formation (olivine-rich cumulate)",
+        "context": "Coarsely crystalline olivine-rich rock; Mg–Fe carbonates along grain boundaries; sulfates and perchlorates in voids.",
+        "summary": "A high-value igneous and alteration target. It records ancient magmatic processes and later water–rock interaction, but it is not the strongest biosignature host.",
+        "habitability": "Moderate",
+        "biosignature": "Weak / none documented",
+        "science": "High",
+        "access": "Easy",
+        "confidence": "Moderate",
+        "source_ids": [
+          "P2",
+          "P11",
+          "P12"
+        ],
+        "distance_from_landing_km": 2.21,
+        "nearest_rover_sol": 200,
+        "coordinate_note": "Approximate; nearest rover daily position used as proxy. Refine with HiRISE and rover operations target database.",
+        "confidence_reason": "Multiple rover instruments and published stratigraphy; the cumulate interpretation is well supported but not unique."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.4361,
+          18.4619,
+          -2555.2
+        ]
+      },
+      "properties": {
+        "id": "T3",
+        "code": "T3",
+        "name": "Máaz",
+        "elevation_m": -2555.2,
+        "unit": "Máaz formation (igneous)",
+        "context": "Overlying igneous unit interpreted as lava flows or a layered igneous body; aqueous alteration is present.",
+        "summary": "A moderate geological target that helps reconstruct the igneous sequence and the timing of alteration.",
+        "habitability": "Low–Moderate",
+        "biosignature": "None documented",
+        "science": "Moderate",
+        "access": "Easy",
+        "confidence": "Moderate",
+        "source_ids": [
+          "P2"
+        ],
+        "distance_from_landing_km": 7.29,
+        "nearest_rover_sol": 400,
+        "coordinate_note": "Approximate; nearest rover daily position used as proxy. Refine with HiRISE and rover operations target database.",
+        "confidence_reason": "Rover observations and a published interpretation; the emplacement mechanism remains debated."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3686,
+          18.4827,
+          -2421.1
+        ]
+      },
+      "properties": {
+        "id": "T4",
+        "code": "T4",
+        "name": "Western delta front / Shenandoah Formation",
+        "elevation_m": -2421.1,
+        "unit": "Shenandoah Formation (fan-front sedimentary rocks)",
+        "context": "Laminated mudstone, sandstone, granule conglomerate; five facies and three facies associations; lacustrine/deltaic transition.",
+        "summary": "A high-value sedimentary and habitability target. Fine-grained rocks at the fan front are a strong preservation context, but no definitive biosignature has been reported.",
+        "habitability": "High (interpreted)",
+        "biosignature": "Potential",
+        "science": "High",
+        "access": "Moderate",
+        "confidence": "Moderate",
+        "source_ids": [
+          "P3",
+          "P7",
+          "P8"
+        ],
+        "distance_from_landing_km": 16.47,
+        "nearest_rover_sol": 797,
+        "coordinate_note": "Approximate; nearest rover daily position used as proxy. Refine with HiRISE and rover operations target database.",
+        "confidence_reason": "Rover stratigraphy and published facies analysis; lateral continuity is inferred."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3466,
+          18.4954,
+          -2398.5
+        ]
+      },
+      "properties": {
+        "id": "T5",
+        "code": "T5",
+        "name": "Upper delta / Cape Nukshak vicinity",
+        "elevation_m": -2398.5,
+        "unit": "Upper fan / delta-top strata",
+        "context": "Layered strata, boulder conglomerate, and scarp; delta-top setting.",
+        "summary": "A high-value stratigraphic target with excellent outcrop exposure. Access is constrained by the scarp and boulder-rich terrain.",
+        "habitability": "High (interpreted)",
+        "biosignature": "Potential",
+        "science": "High",
+        "access": "Difficult",
+        "confidence": "Moderate",
+        "source_ids": [
+          "P3",
+          "P7"
+        ],
+        "distance_from_landing_km": 19.8,
+        "nearest_rover_sol": 1000,
+        "coordinate_note": "Approximate; nearest rover daily position used as proxy. Refine with HiRISE and rover operations target database.",
+        "confidence_reason": "Rover images and stratigraphy; scarp access is not fully characterized."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3038,
+          18.4961,
+          -2362.8
+        ]
+      },
+      "properties": {
+        "id": "T6",
+        "code": "T6",
+        "name": "Neretva Vallis entry",
+        "elevation_m": -2362.8,
+        "unit": "Neretva Vallis valley floor",
+        "context": "Valley-floor outcrops and the approach to Bright Angel; fluvial history.",
+        "summary": "A high-value fluvial target and the gateway to Bright Angel. The valley floor provides a relatively continuous transect through the river system.",
+        "habitability": "High (interpreted)",
+        "biosignature": "Potential",
+        "science": "High",
+        "access": "Moderate",
+        "confidence": "Moderate",
+        "source_ids": [
+          "P3",
+          "P4"
+        ],
+        "distance_from_landing_km": 23.17,
+        "nearest_rover_sol": 1177,
+        "coordinate_note": "Approximate; nearest rover daily position used as proxy. Refine with HiRISE and rover operations target database.",
+        "confidence_reason": "Rover observations and valley context; the flow history is not fully resolved."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3051,
+          18.4974,
+          -2354.5
+        ]
+      },
+      "properties": {
+        "id": "T7",
+        "code": "T7",
+        "name": "Bright Angel / Cheyava Falls",
+        "elevation_m": -2354.5,
+        "unit": "Bright Angel formation (mudstone/conglomerate)",
+        "context": "Organic-carbon-bearing mudstones; sub-millimetre Fe-phosphate nodules; millimetre-scale reaction fronts; likely vivianite and greigite.",
+        "summary": "The strongest documented potential biosignature target in the region. The observations are compelling but the biological interpretation is unresolved; returned-sample analysis is required.",
+        "habitability": "High (interpreted)",
+        "biosignature": "Potential (highest documented, not confirmed)",
+        "science": "High",
+        "access": "Moderate",
+        "confidence": "Moderate–Low",
+        "source_ids": [
+          "P4",
+          "P9",
+          "M1"
+        ],
+        "distance_from_landing_km": 23.3,
+        "nearest_rover_sol": 1195,
+        "coordinate_note": "Approximate; nearest rover daily position used as proxy. Refine with HiRISE and rover operations target database.",
+        "confidence_reason": "Strong rover observations; the biological interpretation is unresolved and sample return is required."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2647,
+          18.4606,
+          -1820.0
+        ]
+      },
+      "properties": {
+        "id": "T8",
+        "code": "T8",
+        "name": "Margin Unit / Mandu Wall",
+        "elevation_m": -1820.0,
+        "unit": "Margin Unit (carbonate-bearing)",
+        "context": "Inner crater rim; orbital carbonate detections; possible lacustrine carbonates.",
+        "summary": "A high-value orbital target with a strong carbonate hypothesis, but limited ground truth. Access is difficult because of the steep rim.",
+        "habitability": "Moderate–High (hypothesis)",
+        "biosignature": "Potential / Unknown",
+        "science": "High",
+        "access": "Difficult",
+        "confidence": "Low–Moderate",
+        "source_ids": [
+          "P5",
+          "P17"
+        ],
+        "distance_from_landing_km": 23.11,
+        "nearest_rover_sol": 1175,
+        "coordinate_note": "Approximate; nearest rover daily position used as proxy. Refine with HiRISE and rover operations target database.",
+        "confidence_reason": "Orbital carbonate detections; limited ground truth and steep access."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2207,
+          18.422,
+          -1973.6
+        ]
+      },
+      "properties": {
+        "id": "T9",
+        "code": "T9",
+        "name": "Western rim traverse",
+        "elevation_m": -1973.6,
+        "unit": "Crater rim / diverse materials",
+        "context": "Diverse rim materials; regional structure; context for the Margin Unit.",
+        "summary": "A contextual target for rim structure and regional geology. It is far from the landing site and poorly characterized at outcrop scale.",
+        "habitability": "Unknown",
+        "biosignature": "Unknown",
+        "science": "High",
+        "access": "Difficult",
+        "confidence": "Low",
+        "source_ids": [
+          "P5",
+          "P17"
+        ],
+        "distance_from_landing_km": 23.11,
+        "nearest_rover_sol": 1175,
+        "coordinate_note": "Approximate; nearest rover daily position used as proxy. Refine with HiRISE and rover operations target database.",
+        "confidence_reason": "Regional mapping and sparse ground truth."
+      }
+    }
+  ]
+}

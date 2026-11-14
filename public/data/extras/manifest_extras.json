@@ -1,0 +1,32 @@
+{
+  "schemaVersion": "1.0.0",
+  "layers": [
+    {
+      "id": "geologic_units",
+      "path": "/data/extras/geologic_units.geojson",
+      "kind": "vector",
+      "source": "Sun and Stack (2020), USGS SIM 3464, DOI 10.3133/sim3464",
+      "product": "SIM 3464",
+      "method": "Vector contacts and unit polygons reprojected to Mars 2000 lon/lat and clipped to Jezero basemap bounds.",
+      "bounds": [77.22, 18.35, 77.58, 18.55],
+      "note": "USGS geologic map units. Context only. Documented 100 to 200 m offset from surface-operations CTX mosaic."
+    },
+    {
+      "id": "slope",
+      "path": "/data/extras/slope_jezero.webp",
+      "kind": "image",
+      "source": "HiRISE stereo DTMs (DTEEC_045994_1985_046060_1985_U01 and DTEEC_002387_1985_003798_1985_A01)",
+      "product": "HiRISE DTM 1 m/px resampled to 5 m baseline",
+      "method": "5 m slope baseline in degrees, classified into 5 bins. Transparent alpha for nodata.",
+      "bounds": [77.22, 18.35, 77.58, 18.55],
+      "note": "Slope from HiRISE DTM, 5 m baseline. Not a trafficability model. Coverage is limited to DTM footprints."
+    },
+    {
+      "id": "target_slopes",
+      "path": "/data/extras/target_slopes.json",
+      "kind": "metadata",
+      "source": "HiRISE DTM 5 m slope raster query",
+      "method": "Median slope within 100 m of documented target coordinates. Neretva and rim targets lack DTM coverage."
+    }
+  ]
+}

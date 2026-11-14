@@ -1,0 +1,46 @@
+[
+  {
+    "target_id": "T1",
+    "image_id": "PIA24424",
+    "instrument": "Mastcam-Z",
+    "sol": 2,
+    "caption": "First high-resolution panorama captured by Mastcam-Z at Octavia E. Butler Landing, showing the flat basaltic crater floor.",
+    "credit": "NASA/JPL-Caltech/ASU/MSSS",
+    "source_url": "https://photojournal.jpl.nasa.gov/catalog/PIA24424",
+    "file": "",
+    "alt": "Perseverance Mastcam-Z 360-degree panorama of the Jezero crater floor at Octavia E. Butler landing site."
+  },
+  {
+    "target_id": "T2",
+    "image_id": "PIA24842",
+    "instrument": "Mastcam-Z",
+    "sol": 257,
+    "caption": "Perseverance Mastcam-Z view looking into South Séítah layered olivine cumulate ridge with visible aeolian ripples.",
+    "credit": "NASA/JPL-Caltech/ASU/MSSS",
+    "source_url": "https://photojournal.jpl.nasa.gov/catalog/PIA24842",
+    "file": "",
+    "alt": "Séítah layered olivine cumulate rock exposures viewed by Mastcam-Z across sand dunes."
+  },
+  {
+    "target_id": "T4",
+    "image_id": "PIA25287",
+    "instrument": "Mastcam-Z",
+    "sol": 423,
+    "caption": "Perseverance captures the layered strata of the Jezero western delta front, revealing sedimentary bottomsets and deltaic beds.",
+    "credit": "NASA/JPL-Caltech/ASU/MSSS",
+    "source_url": "https://photojournal.jpl.nasa.gov/catalog/PIA25287",
+    "file": "",
+    "alt": "Steep sedimentary strata of the western delta front showing bottomsets and foresets."
+  },
+  {
+    "target_id": "T7",
+    "image_id": "PIA26362",
+    "instrument": "SHERLOC / WATSON",
+    "sol": 1195,
+    "caption": "Close-up of the Cheyava Falls rock target at Bright Angel, revealing millimeter-scale reaction fronts with likely vivianite and greigite.",
+    "credit": "NASA/JPL-Caltech/MSSS",
+    "source_url": "https://photojournal.jpl.nasa.gov/catalog/PIA26362",
+    "file": "",
+    "alt": "Close-up view of Cheyava Falls rock surface showing distinctive reaction rings and mineral nodules."
+  }
+]

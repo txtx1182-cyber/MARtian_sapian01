@@ -1,0 +1,110 @@
+[
+  {
+    "id": "P1",
+    "citation": "Farley et al. (2020), Mars 2020 Mission Overview, Space Science Reviews 216, 142",
+    "url": "https://doi.org/10.1007/s11214-020-00762-y",
+    "type": "paper"
+  },
+  {
+    "id": "P2",
+    "citation": "Farley et al. (2022), Aqueously altered igneous rocks sampled on the floor of Jezero crater, Mars, Science 377, eabo2196",
+    "url": "https://doi.org/10.1126/science.abo2196",
+    "type": "paper"
+  },
+  {
+    "id": "P3",
+    "citation": "Mangold et al. (2021), Perseverance rover reveals an ancient delta-lake system and flood deposits at Jezero crater, Mars, Science 374, 711–717",
+    "url": "https://doi.org/10.1126/science.abl4051",
+    "type": "paper"
+  },
+  {
+    "id": "P4",
+    "citation": "Hurowitz et al. (2025), Redox-driven mineral and organic associations in Jezero Crater, Mars, Nature 645, 332–340",
+    "url": "https://doi.org/10.1038/s41586-025-09413-0",
+    "type": "paper"
+  },
+  {
+    "id": "P5",
+    "citation": "Horgan et al. (2020), The mineral diversity of Jezero crater: Evidence for possible lacustrine carbonates on Mars, Icarus 339, 113526",
+    "url": "https://doi.org/10.1016/j.icarus.2019.113526",
+    "type": "paper"
+  },
+  {
+    "id": "P7",
+    "citation": "Stack et al. (2024), Sedimentology and stratigraphy of the Shenandoah Formation, Western Fan, Jezero Crater, Mars, JGR Planets 129, e2023JE008187",
+    "url": "https://doi.org/10.1029/2023JE008187",
+    "type": "paper"
+  },
+  {
+    "id": "P8",
+    "citation": "Bosak et al. (2024), Astrobiological potential of rocks acquired by the Perseverance rover at a sedimentary fan front in Jezero Crater, Mars, AGU Advances 5, e2024AV001241",
+    "url": "https://doi.org/10.1029/2024AV001241",
+    "type": "paper"
+  },
+  {
+    "id": "P9",
+    "citation": "Scheller et al. (2024), Inorganic interpretation of luminescent materials encountered by the Perseverance rover on Mars, Science Advances 10, eadm8241",
+    "url": "https://doi.org/10.1126/sciadv.adm8241",
+    "type": "paper"
+  },
+  {
+    "id": "P11",
+    "citation": "Liu et al. (2022), An olivine cumulate outcrop on the floor of Jezero Crater, Mars, Science 377, 1513–1519",
+    "url": "https://doi.org/10.1126/science.abo2756",
+    "type": "paper"
+  },
+  {
+    "id": "P12",
+    "citation": "Tice et al. (2022), Alteration history of Séítah Formation rocks inferred by PIXL XRF, XRD, and multispectral imaging on Mars, Science Advances 8, eabp9084",
+    "url": "https://doi.org/10.1126/sciadv.abp9084",
+    "type": "paper"
+  },
+  {
+    "id": "P17",
+    "citation": "Sun & Stack (2020), Geologic map of Jezero crater and the Nili Planum region, Mars, USGS SIM 3464",
+    "url": "https://doi.org/10.3133/sim3464",
+    "type": "map"
+  },
+  {
+    "id": "D1",
+    "citation": "PDS Orbital Data Explorer REST API",
+    "url": "https://oderest.rsl.wustl.edu/",
+    "type": "data"
+  },
+  {
+    "id": "E1",
+    "citation": "Hassler et al. (2014), Mars' surface radiation environment measured with the Mars Science Laboratory's Curiosity rover, Science 343, 1244797",
+    "url": "https://doi.org/10.1126/science.1244797",
+    "type": "paper"
+  },
+  {
+    "id": "E2",
+    "citation": "PDS Atmospheres Node, MEDA bundle",
+    "url": "https://pds-atmospheres.nmsu.edu/data_and_services/atmospheres_data/PERSEVERANCE/meda.html",
+    "type": "data"
+  },
+  {
+    "id": "E3",
+    "citation": "Mars Climate Database, access and caveats",
+    "url": "https://www-mars.lmd.jussieu.fr/mars/access.html",
+    "type": "model"
+  },
+  {
+    "id": "E4",
+    "citation": "Subsurface Water Ice Mapping (SWIM)",
+    "url": "https://swim.psi.edu/",
+    "type": "data"
+  },
+  {
+    "id": "M1",
+    "citation": "NASA, NASA's Perseverance Rover Scientists Find Intriguing Mars Rock, 2024",
+    "url": "https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/nasas-perseverance-rover-scientists-find-intriguing-mars-rock/",
+    "type": "public"
+  },
+  {
+    "id": "U1",
+    "citation": "USGS Astrogeology, Mars 2020 TRN HiRISE Orthorectified Image Mosaic",
+    "url": "https://astrogeology.usgs.gov/search/map/mars_2020_terrain_relative_navigation_hirise_orthorectified_image_mosaic",
+    "type": "data"
+  }
+]
